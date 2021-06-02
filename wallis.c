@@ -30,5 +30,5 @@ float wallis_pi(int n)
  { int b=4j^2/(4j^2 -1);
    a=a*b;
  } 
-return a;}
+return a*2;}
  
