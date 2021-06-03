@@ -40,12 +40,12 @@ int main(void) {
 }
 float mc_pi(int n)
 {float x, y,ratio;
- float inside;
+ float inside=0;
  for(int j=0; j<n; j++)
  {
  x=frandom();
  y=frandom();
- if(sqrt(x^2 + y^2)<=1)
+ if(sqrt(x^2 + y^2)<=1.0)
    inside++;
  }
  ratio=inside/n;
