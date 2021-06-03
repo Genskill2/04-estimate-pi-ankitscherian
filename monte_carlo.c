@@ -45,11 +45,11 @@ float mc_pi(int n)
  {
  x=frandom();
  y=frandom();
- if(sqrt(x^2 + y^2)<=1.0)
+ if(sqrt(x*x + y*y)<=1.0)
    inside++;
  }
  ratio=(float)inside/(float)n;
- return ratio*4;
+ return ratio*4.0;
 }
  
    
