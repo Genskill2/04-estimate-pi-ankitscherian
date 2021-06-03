@@ -48,7 +48,7 @@ float mc_pi(int n)
  if(sqrt(x^2 + y^2)<=1.0)
    inside++;
  }
- ratio=inside/n;
+ ratio=(float)inside/(float)n;
  return ratio*4;
 }
  
