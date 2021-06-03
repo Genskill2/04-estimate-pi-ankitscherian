@@ -30,5 +30,5 @@ float wallis_pi(int n)
  { a*=(4.0*j*j)/(float)((4.0*j*j)-1);
  
  } 
-return a*2;}
+return a*2.0;}
  
